@@ -1,0 +1,39 @@
+{
+  "name": "main-loop-app",
+  "version": "0.0.0",
+  "description": "Basic application glue code taken directly from raynos/mercury for use in chrisinajar/not-mercury.",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape 'test.js' | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/main-loop-app.git"
+  },
+  "keywords": [
+    "mercury",
+    "virtual-dom",
+    "main-loop",
+    "dom-delegator",
+    "not-mercury"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/main-loop-app/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/main-loop-app#readme",
+  "devDependencies": {
+    "global": "^4.3.0",
+    "observ": "^0.2.0",
+    "semistandard": "^7.0.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "dom-delegator": "^13.1.0",
+    "main-loop": "^3.2.0",
+    "virtual-dom": "^2.1.1",
+    "xtend": "^4.0.1"
+  }
+}
