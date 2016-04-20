@@ -1,6 +1,6 @@
 {
   "name": "main-loop-app",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Basic application glue code taken directly from raynos/mercury for use in chrisinajar/not-mercury.",
   "main": "index.js",
   "scripts": {
